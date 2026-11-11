@@ -1,0 +1,15 @@
+#get builtin/lnout
+
+#classname Logger
+#description Output stuff to logs.
+#constructor (str id)
+class Logger {
+    str id;
+    Logger(str id) {
+        this.id = id;
+    }
+
+    void info(str message) {
+        lnout(`[INFO] {message}`);
+    }
+}

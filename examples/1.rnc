@@ -1,0 +1,4 @@
+I8 main() {
+    lnout("Hello world!")
+    return 0;
+}
